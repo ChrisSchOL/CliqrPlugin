@@ -30,3 +30,4 @@ cliqr.bootstrap.POLLS = <?= json_encode(array_map(function ($q) { return $q->toJ
         src="<?= $ASSETS ?>js/vendor/require.js"></script>
 
 <?= $this->render_partial('_noscript') ?>
+</div>
